@@ -38,7 +38,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         <img
           src={user.imageUrl}
           alt="User Avatar"
-          className="w-13 rounded-full mx-auto"
+          className="w-12 rounded-full mx-auto"
         />
         <h1 className="mt-1 text-center">{user.fullName}</h1>
 
@@ -76,7 +76,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         </div>
         <LogOut
           onClick={signOut}
-          className="w-4.5 text-gray-400 hover:text-gray-700 transition cursor-pointer"
+          className="w-5 text-gray-400 hover:text-gray-700 transition cursor-pointer"
         />
       </div>
     </div>
